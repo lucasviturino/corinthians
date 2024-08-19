@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - E-commerce</title>
+    <link rel="stylesheet" href="/public/SuperAdmin/admin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+   <body>
+      <div class="container">
+         <aside class="sidebar" style="text-align: center;">
+             <ul>
+                 <li><a href="#clientes"><i style="margin-right: 10px;" class="fas fa-users"></i>Clientes</a></li>
+                 <li><a href="#produtos"><i style="margin-right: 10px;" class="fas fa-box"></i>Produtos</a></li>
+                 <li><a href="#categorias"><i style="margin-right: 10px;" class="fas fa-tags"></i>Categorias</a></li>
+             </ul>
+             <div class="home-link" style="margin-bottom: 50px;">
+                 <a href="/public/HomePage/index.html"><i style="margin-right: 10px;" class="fas fa-home" ></i >Voltar para o Home</a>
+             </div>
+         </aside>
+  
+          <main class="content">
+              <section id="clientes">
+                  <h1>CRUD de Clientes</h1>
+                  <!-- Tabela para exibir clientes -->
+                  <table id="client-table">
+                      <thead>
+                          <tr>
+                              <th>Nome</th>
+                              <th>Email</th>
+                              <th>Sexo</th>
+                              <th>Idade</th>
+                              <th>Localização</th>
+                              <th>Ações</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <!-- Clientes fictícios -->
+                          <tr>
+                              <td>Maria Silva</td>
+                              <td>maria.silva@example.com</td>
+                              <td>Feminino</td>
+                              <td>28</td>
+                              <td>São Paulo, SP</td>
+                              <td>
+                                  <button>Editar</button>
+                                  <button>Excluir</button>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>João Souza</td>
+                              <td>joao.souza@example.com</td>
+                              <td>Masculino</td>
+                              <td>35</td>
+                              <td>Rio de Janeiro, RJ</td>
+                              <td>
+                                  <button>Editar</button>
+                                  <button>Excluir</button>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>Ana Oliveira</td>
+                              <td>ana.oliveira@example.com</td>
+                              <td>Feminino</td>
+                              <td>22</td>
+                              <td>Belo Horizonte, MG</td>
+                              <td>
+                                  <button>Editar</button>
+                                  <button>Excluir</button>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>Carlos Pereira</td>
+                              <td>carlos.pereira@example.com</td>
+                              <td>Masculino</td>
+                              <td>42</td>
+                              <td>Curitiba, PR</td>
+                              <td>
+                                  <button>Editar</button>
+                                  <button>Excluir</button>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>Luciana Santos</td>
+                              <td>luciana.santos@example.com</td>
+                              <td>Feminino</td>
+                              <td>30</td>
+                              <td>Fortaleza, CE</td>
+                              <td>
+                                  <button>Editar</button>
+                                  <button>Excluir</button>
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </section>
+              <!-- Seções adicionais para produtos e categorias -->
+          </main>
+      </div>
+      <script src="admin.js"></script>
+</body>
+</html>
+
